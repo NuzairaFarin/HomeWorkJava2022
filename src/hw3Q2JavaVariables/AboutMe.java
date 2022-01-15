@@ -6,32 +6,29 @@ public class AboutMe {
 	public byte myAge;
 
 	// Here variables are initialized.
-	public String name = "Nuzaira";
-	public byte householdMember = 4;
-	public short householdIncome = 32540;
-	public int utilities = 45000;
-	public long savings = 584848l;
-	public float myHeight = 5.1f;
-	public double myCgpa = 3.50;
-	public char middleName = 'E';
+	public String MyName = "Nuzaira";
+	public byte yearsInUsa = 4;
+	public short taxPaid = 32540;
+	public int totalEarning = 45000;
+	public long bankBalance = 584848l;
+	public float height = 5.1f;
+	public double cgpa = 3.50;
+	public char sex = 'f';
 	public boolean voter = false;
 
 	public static void main(String[] args) {
 
 		AboutMe aboutMe = new AboutMe();
 
-		System.out.println("My name is " + aboutMe.name);
-		System.out.println("The number of people I live with is " + aboutMe.householdMember);
-		System.out.println("Our total household income is in USD " + aboutMe.householdIncome);
-		System.out.println("Our utility bills come upto USD " + aboutMe.utilities);
-		System.out.println("Total savings that we have is " + aboutMe.savings);
-		System.out.println("My height is " + aboutMe.myHeight);
-		System.out.println("My High School CGPA is " + aboutMe.myCgpa);
-		System.out.println("My middle name is  " + aboutMe.middleName);
+		System.out.println("My name is " + aboutMe.MyName);
+		System.out.println("I have been living in the USA for " + aboutMe.yearsInUsa + "years.");
+		System.out.println("Last year the total tax amount I paid was " + aboutMe.taxPaid);
+		System.out.println("Our total earning for the last year was $" + aboutMe.totalEarning);
+		System.out.println("Total savings that we have is " + aboutMe.bankBalance);
+		System.out.println("My height is " + aboutMe.height);
+		System.out.println("My High School CGPA is " + aboutMe.cgpa);
+		System.out.println("Sex:  " + aboutMe.sex);
 		System.out.println("Am I a voter? " + aboutMe.voter);
-		System.out.println(aboutMe.name + "\n" + aboutMe.householdIncome);
-		System.out.println(aboutMe.myHeight +""+aboutMe.voter);
-		System.out.println(aboutMe.middleName +""+ aboutMe.voter);
 	}
 
 }
