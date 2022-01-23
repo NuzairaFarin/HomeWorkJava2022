@@ -1,5 +1,6 @@
 package hw4Q2JavaVariables;
 
+
 public class AboutMeTest {
 
 	public static void main(String[] args) {
@@ -14,7 +15,7 @@ public class AboutMeTest {
 		candidate1.totalEarning = 4867660;
 		candidate1.bankBalance = 69886998654l;
 		candidate1.voter = false;
-		candidate1.aboutMe();
+	//	candidate1.aboutMe();
 
 		System.out.println("\n*******************************************************");
 
@@ -28,8 +29,9 @@ public class AboutMeTest {
 		candidate2.totalEarning = 344600;
 		candidate2.bankBalance = 54667877l;
 		candidate2.voter = true;
-		candidate2.aboutMe();
-
+/*		candidate2.aboutMe(); Here the aboutMe is here to print out the method
+ from the class AboutMe from line 22 to line 25.
+*/
 	}
 
 }
