@@ -1,12 +1,6 @@
 package hw5Q2Constructor;
 
-/*public class Computer {
-	public String brand;
-	public String model;
-	public String operatingSystem;
-	public int price;
-	public char grade;
-	public boolean madeInUSA;*/
+
 public class ComputerTest {
 
 	public static void main(String[] args) {
