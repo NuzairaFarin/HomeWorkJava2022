@@ -10,6 +10,7 @@ public class Computer {
 
 	public Computer() {
 		System.out.println("This is from default Constructor of Computer class.");
+System.out.println("HI");
 	}
 
 	public Computer(String brand, String model, String operatingSystem, int price, char grade, boolean madeInUSA) {
